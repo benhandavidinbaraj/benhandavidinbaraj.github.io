@@ -158,7 +158,7 @@ tfoot th {
     border-bottom: 1px solid #28333f;
 }
 
-@media (min-width: 460px) {
+@media only screen and (min-width: 460px) {
     td {
         text-align: left;        
     }
@@ -174,7 +174,7 @@ tfoot th {
     }
 }
 
-@media (min-width: 720px) {
+@media only screen and (min-width: 720px) {
     table {
         display: table;
     }
